@@ -12,6 +12,11 @@
 	}
 </script>
 
-<style>
+<style lang="less">
+    body{
+        margin: 0;
+        overflow: hidden;
+    }
 	/*每个页面公共css */
 </style>
+

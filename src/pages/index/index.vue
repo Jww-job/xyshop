@@ -11,11 +11,10 @@
 	export default {
 		data() {
 			return {
-				title: 'Hello'
+				title: '121212'
 			}
 		},
 		onLoad() {
-
 		},
 		methods: {
 
