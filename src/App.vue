@@ -13,6 +13,8 @@
 </script>
 
 <style lang="less">
+	@import "../colorui/main.css";
+	@import "../colorui/icon.css";
     body{
         margin: 0;
         overflow: hidden;

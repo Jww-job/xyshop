@@ -10,10 +10,10 @@
 			}
 		},
 		{
-			"path": "pages/my/my",
+			"path": "pages/person/person",
 			"style": {
 
-				"navigationBarTitleText": "my",
+				"navigationBarTitleText": "person",
 				"app-plus": {
 					"titleNView": false
 				}
@@ -27,7 +27,25 @@
 		}
 
 		
-	],
+	    ,{
+            "path" : "pages/cart/cart",
+            "style" : {
+				"navigationBarTitleText": "我的购物车"
+			}
+        }
+        ,{
+            "path" : "pages/find/find",
+            "style" : {
+				"navigationBarTitleText": "发现"
+			}
+        }
+        ,{
+            "path" : "pages/sort/sort",
+            "style" : {
+				"navigationBarTitleText": "分类"
+			}
+        }
+    ],
 	"tabBar": {
 		"color": "#7A7E83",
 		"selectedColor": "#3cc51f",
@@ -35,13 +53,28 @@
 		"backgroundColor": "#ffffff",
 		"list": [{
 			"pagePath": "pages/home/home",
-			"iconPath": "static/image/back.png",
-			"selectedIconPath": "static/image/go.png",
+			"iconPath": "static/icon/home.png",
+			"selectedIconPath": "static/icon/home-select.png",
 			"text": "主页"
 		}, {
-			"pagePath": "pages/my/my",
-			"iconPath": "static/image/pay.png",
-			"selectedIconPath": "static/image/store.png",
+			"pagePath": "pages/find/find",
+			"iconPath": "static/icon/find.png",
+			"selectedIconPath": "static/icon/find-select.png",
+			"text": "发现"
+		}, {
+			"pagePath": "pages/cart/cart",
+			"iconPath": "static/icon/cart.png",
+			"selectedIconPath": "static/icon/cart-select.png",
+			"text": "购物车"
+		}, {
+			"pagePath": "pages/sort/sort",
+			"iconPath": "static/icon/sort.png",
+			"selectedIconPath": "static/icon/sort-select.png",
+			"text": "分类"
+		}, {
+			"pagePath": "pages/person/person",
+			"iconPath": "static/icon/person.png",
+			"selectedIconPath": "static/icon/person-select.png",
 			"text": "我的"
 		}]
 	},
